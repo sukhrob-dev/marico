@@ -179,6 +179,10 @@ const Sidebar = styled.div`
         transition: "all 0.35s ease-in-out",
         left: props => props.collapsed ? "0" : "-1000px"
     })};
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
 `
 
 const List = styled.ul`
